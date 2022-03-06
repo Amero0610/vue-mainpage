@@ -1,4 +1,4 @@
-<!--
+!--
  * @Author: AmeroL
  * @Date: 2022-03-06 01:29:02
  * @LastEditors: AmeroL
@@ -176,10 +176,12 @@
 export default {
   methods: {
     linkto_Timer: function () {
-      this.$router.push("/timerpage");
+   const {href} =    this.$router.resolve("/timerpage");
+window.open(href,"_blank")
     },
     linkto_Clock:function(){
-      this.$router.push("/clockpage");
+      this.$router.resolve("/clockpage");
+window.open(href,"_blank")
     }
   },
 };
