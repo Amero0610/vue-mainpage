@@ -1,3 +1,13 @@
+<!--
+ * @Author: AmeroL
+ * @Date: 2022-03-06 01:29:02
+ * @LastEditors: AmeroL
+ * @LastEditTime: 2022-03-06 01:29:02
+ * @FilePath: \vue-mainpage\src\views\mainPage.vue
+ * @email: vian8416@163.com
+-->
+
+
 <template>
   <div class="container-fluid Mainbox">
     <div class="jumbotron">
@@ -112,7 +122,7 @@
         </div>
       </div>
     </div>
-    <div id="myMusic">
+    <div id="myMusic">  
       <audio controls="controls">
         <source
           src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/media/Vicetone%20Cozi%20Zuehlsdorff%20-%20Nevada.2a38b5a4.mp3"
