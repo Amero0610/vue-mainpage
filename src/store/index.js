@@ -2,7 +2,7 @@
  * @Author: AmeroL
  * @Date: 2022-03-06 01:29:21
  * @LastEditors: AmeroL
- * @LastEditTime: 2022-03-06 01:29:21
+ * @LastEditTime: 2022-03-07 02:45:39
  * @FilePath: \vue-mainpage\src\store\index.js
  * @email: vian8416@163.com
  */
@@ -13,6 +13,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    
   },
   getters: {
   },

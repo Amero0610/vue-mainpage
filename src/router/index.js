@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import com_MainPage from '../views/mainPage.vue'
-import com_Test_Page from '../views/timerPage.vue'
+import com_TestPage from '../views/timerPage.vue'
+import com_clockPage from '../views/clockPage.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -17,7 +18,12 @@ const routes = [
   {
     path:'/timerpage',
     name:"TimerPage",
-    component:com_Test_Page
+    component:com_TestPage
+  },
+  {
+    path:'/clockpage',
+    name:"ClockPage",
+    component:com_clockPage
   }
 ]
 

@@ -2,7 +2,7 @@
  * @Author: AmeroL
  * @Date: 2022-03-06 01:29:02
  * @LastEditors: AmeroL
- * @LastEditTime: 2022-03-06 01:29:02
+ * @LastEditTime: 2022-03-07 02:48:20
  * @FilePath: \vue-mainpage\src\views\mainPage.vue
  * @email: vian8416@163.com
 -->
@@ -10,7 +10,7 @@
 
 <template>
   <div class="container-fluid Mainbox">
-     <div v-title data-title="AmeroL的小屋子"></div>
+    <div v-title data-title="AmeroL的小屋子"></div>
     <div class="jumbotron">
       <h1 class="display-3">Amero's Page</h1>
       <p class="lead">Welcome to MyPage</p>
@@ -22,7 +22,14 @@
           class="btn btn-light btn-outline-primary"
           @click="linkto_Timer"
           role="button"
-          >This is a button</a
+          >Timer</a
+        >
+        <a
+          target="blank"
+          class="btn btn-light btn-outline-success"
+          @click="linkto_Clock"
+          role="button"
+          >Clock</a
         >
       </p>
     </div>
@@ -123,7 +130,7 @@
         </div>
       </div>
     </div>
-    <div id="myMusic">  
+    <div id="myMusic">
       <audio controls="controls">
         <source
           src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/media/Vicetone%20Cozi%20Zuehlsdorff%20-%20Nevada.2a38b5a4.mp3"
@@ -167,10 +174,13 @@
 </style>
 <script>
 export default {
-  methods:{
-    linkto_Timer:function(){
-      this.$router.push('/timerpage')
+  methods: {
+    linkto_Timer: function () {
+      this.$router.push("/timerpage");
+    },
+    linkto_Clock:function(){
+      this.$router.push("/clockpage");
     }
-  }
-}
+  },
+};
 </script>
