@@ -180,7 +180,7 @@ export default {
 window.open(href,"_blank")
     },
     linkto_Clock:function(){
-      this.$router.resolve("/clockpage");
+   const {href} =    this.$router.resolve("/clockpage");
 window.open(href,"_blank")
     }
   },
