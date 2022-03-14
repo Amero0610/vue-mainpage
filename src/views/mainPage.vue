@@ -1,8 +1,8 @@
-!--
+<!--
  * @Author: AmeroL
  * @Date: 2022-03-06 01:29:02
  * @LastEditors: AmeroL
- * @LastEditTime: 2022-03-07 02:48:20
+ * @LastEditTime: 2022-03-14 23:58:31
  * @FilePath: \vue-mainpage\src\views\mainPage.vue
  * @email: vian8416@163.com
 -->
@@ -138,9 +138,25 @@
         />
       </audio>
     </div>
+
+    <div class="d-flex justify-content-center">
+      <a href="https://beian.miit.gov.cn/" target="_blank" id="footerLink">
+        蒙ICP备2022000842号-1</a
+      >
+    </div>
   </div>
 </template>
 <style>
+#footerLink{
+  font-size: 10px;
+  color: rgb(134, 137, 139);
+  text-decoration: none;
+}
+#footerLink:hover{
+ font-size: 10px;
+ color: rgb(103, 104, 105);
+ text-decoration: none;
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -176,13 +192,13 @@
 export default {
   methods: {
     linkto_Timer: function () {
-   const {href} =    this.$router.resolve("/timerpage");
-window.open(href,"_blank")
+      const { href } = this.$router.resolve("/timerpage");
+      window.open(href, "_blank");
     },
-    linkto_Clock:function(){
-   const {href} =    this.$router.resolve("/clockpage");
-window.open(href,"_blank")
-    }
+    linkto_Clock: function () {
+      const { href } = this.$router.resolve("/clockpage");
+      window.open(href, "_blank");
+    },
   },
 };
 </script>
