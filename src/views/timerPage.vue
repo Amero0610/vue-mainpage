@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-title data-title="AmeroL的时钟"></div>
+    <div v-title data-title="AmeroL's Timer"></div>
     <section>
       <div class="clock">
         <div class="container">

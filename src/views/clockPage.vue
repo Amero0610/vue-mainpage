@@ -1,6 +1,6 @@
 <template>
   <div class="clockPage">
-           <div v-title data-title="AmeroL的钟表"></div>
+           <div v-title data-title="AmeroL's Clock"></div>
     <div class="clock">
       <div class="hour">
         <div class="hr" id="hr"></div>

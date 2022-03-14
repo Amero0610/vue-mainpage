@@ -10,7 +10,7 @@
 
 <template>
   <div class="container-fluid Mainbox">
-    <div v-title data-title="AmeroL的小屋子"></div>
+    <div v-title data-title="AmeroL's Page"></div>
     <div class="jumbotron">
       <h1 class="display-3">Amero's Page</h1>
       <p class="lead">Welcome to MyPage</p>
@@ -180,7 +180,7 @@
   display: block;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 #myMusic {
   width: 200px;
