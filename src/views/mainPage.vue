@@ -2,7 +2,7 @@
  * @Author: AmeroL
  * @Date: 2022-03-06 01:29:02
  * @LastEditors: AmeroL
- * @LastEditTime: 2022-03-14 23:58:31
+ * @LastEditTime: 2022-03-15 03:13:49
  * @FilePath: \vue-mainpage\src\views\mainPage.vue
  * @email: vian8416@163.com
 -->
@@ -51,11 +51,12 @@
           <li data-target="#carouselId" data-slide-to="4" class="downlab"></li>
           <li data-target="#carouselId" data-slide-to="5" class="downlab"></li>
           <li data-target="#carouselId" data-slide-to="6" class="downlab"></li>
+          <li data-target="#carouselId" data-slide-to="7" class="downlab"></li>
         </ol>
         <div class="carousel-inner" role="listbox" id="picturebox">
           <div class="carousel-item active" data-interval="5000">
             <img
-              src="../assets/mainpageAssets/pic1.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304111.jpg"
               class="w-100"
               alt="First slide"
             />
@@ -63,7 +64,7 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img
-              src="../assets/mainpageAssets/pic2.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304113.jpg"
               class="w-100"
               alt="Second slide"
             />
@@ -74,7 +75,7 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img
-              src="../assets/mainpageAssets/pic3.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304114.jpg"
               class="w-100"
               alt="Third slide"
             />
@@ -85,7 +86,7 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img
-              src="../assets/mainpageAssets/pic4.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304115.jpg"
               class="w-100"
               alt="Third slide"
             />
@@ -96,7 +97,7 @@
           </div>
           <div class="carousel-item" data-interval="5000">
             <img
-              src="../assets/mainpageAssets/pic5.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304116.jpg"
               class="w-100"
               alt="Third slide"
             />
@@ -107,7 +108,7 @@
           </div>
           <div class="carousel-item" data-interval="1000">
             <img
-              src="../assets/mainpageAssets/pic6.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304117.jpg"
               class="w-100"
               alt="Third slide"
             />
@@ -118,7 +119,18 @@
           </div>
           <div class="carousel-item" data-interval="500">
             <img
-              src="../assets/mainpageAssets/pic7.jpg"
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304118.jpg"
+              class="w-100"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h3>Thisis Third Picture</h3>
+                                <p>Description</p> -->
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="500">
+            <img
+              src="https://my-imagestore.oss-cn-beijing.aliyuncs.com/mainpage/202203150304112.png"
               class="w-100"
               alt="Third slide"
             />
@@ -147,15 +159,15 @@
   </div>
 </template>
 <style>
-#footerLink{
+#footerLink {
   font-size: 10px;
   color: rgb(134, 137, 139);
   text-decoration: none;
 }
-#footerLink:hover{
- font-size: 10px;
- color: rgb(103, 104, 105);
- text-decoration: none;
+#footerLink:hover {
+  font-size: 10px;
+  color: rgb(103, 104, 105);
+  text-decoration: none;
 }
 * {
   margin: 0px;
@@ -180,7 +192,7 @@
   display: block;
   width: 10px;
   height: 10px;
-  border-radius: 5%;
+  border-radius: 100%;
 }
 #myMusic {
   width: 200px;
